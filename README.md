@@ -72,6 +72,27 @@ Alternatively, open the folder in Visual Studio Code and use the Live Server ext
 
 Screenshots of the completed website will be included in this repository to demonstrate the project output.
 
+### Home
+![Home](screenshots/home.PNG)
+
+### About
+![About](screenshots/about.PNG)
+
+### Skills
+![Skills](screenshots/skills.PNG)
+
+### Projects
+![Projects](screenshots/projects.PNG)
+
+### Experience
+![Experience](screenshots/experience.PNG)
+
+### Education
+![Education](screenshots/education.PNG)
+
+### Contact
+![Contact](screenshots/contact.PNG)
+
 ## Conclusion
 
 This project helped me apply my knowledge of HTML, CSS, and JavaScript to develop a responsive and interactive personal portfolio website. It also provided practical experience in frontend development, website design, and creating user-friendly interfaces.
