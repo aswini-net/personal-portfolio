@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aswini R | Aspiring Frontend Developer & CSE Student</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="header" class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">Aswini.<span>dev</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge">👋 Hello, World! I'm</span>
+                    <h1 class="hero-title">Aswini R</h1>
+                    <h2 class="hero-subtitle">Aspiring Frontend Developer & CSE Student</h2>
+                    <p class="hero-description">
+                        Final-year Computer Science Engineering student passionate about building scalable web applications, crafting intuitive user interfaces, and solving real-world challenges.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Projects <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:ashi.07206@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="decorative-blob"></div>
+                    <div class="code-card-floating">
+                        <div class="card-header-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <code>
+                            <span class="keyword">const</span> developer = {<br>
+                            &nbsp;&nbsp;name: <span class="string">"Aswini R"</span>,<br>
+                            &nbsp;&nbsp;role: <span class="string">"Frontend Developer"</span>,<br>
+                            &nbsp;&nbsp;focus: <span class="string">"UI/UX & Web Apps"</span>,<br>
+                            &nbsp;&nbsp;passion: <span class="string">"Problem Solving"</span><br>
+                            };
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me and my professional goals</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Academic Background</h3>
+                        <p>Final-year Computer Science Engineering student at Sri Sairam Engineering College, maintaining a strong academic record with an 8.92 CGPA (89.2%).</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Tech & Development</h3>
+                        <p>Experienced in full-stack web development, modern frontend frameworks like React and Next.js, TypeScript, Tailwind CSS, and robust backend technologies including Java, Python, and Spring Boot.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Goals & Approach</h3>
+                        <p>Passionate about building scalable software solutions and applying strong problem-solving skills to real-world challenges. Seeking opportunities to contribute and grow as a software engineer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">A snapshot of my technical toolkit and expertise</p>
+                </div>
+                <div class="skills-grid">
+                    <!-- Category 1: Languages -->
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+                    <!-- Category 2: Web & Frameworks -->
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-globe"></i> Web & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Next.js</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Spring Boot</span>
+                        </div>
+                    </div>
+                    <!-- Category 3: Databases -->
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-database"></i> Databases</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <!-- Category 4: Developer Tools -->
+                    <div class="skill-category-card">
+                        <h3><i class="fa-solid fa-toolbox"></i> Developer Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Eclipse</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Showcasing my academic and technical projects</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-tag-date">Jun 2026</div>
+                            <h3 class="project-title">GlowDrape Full-Stack E-Commerce Platform</h3>
+                            <p class="project-description">
+                                Developed responsive user interfaces for an e-commerce platform offering jewellery and apparel shopping experiences. Implemented reusable frontend components, responsive layouts, and intuitive navigation.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-tag-date">Nov 2025</div>
+                            <h3 class="project-title">ATS Resume Analyzer</h3>
+                            <p class="project-description">
+                                Developed a web-based ATS Resume Analyzer that extracts text from resumes and compares it with job descriptions to calculate ATS compatibility scores. Implemented keyword matching, skill-gap analysis, and resume section detection features.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Spring Boot</span>
+                                <span>Thymeleaf</span>
+                                <span>Apache PDFBox</span>
+                                <span>Maven</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <div class="project-tag-date">Jan 2026</div>
+                            <h3 class="project-title">Mood-Based Study Suggestion Tool</h3>
+                            <p class="project-description">
+                                Built a multi-page responsive web app providing personalized study recommendations based on user emotional state using cognitive psychology principles. Applied structured data-driven logic with localStorage integration to deliver tailored user experiences.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Internships Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Internships & Experience</h2>
+                    <p class="section-subtitle">My professional journey and simulated experience</p>
+                </div>
+                <div class="timeline">
+                    <!-- Exp 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jun 2026 – Jul 2026</span>
+                            <h3>Full Stack Developer Intern</h3>
+                            <h4>Maestrominds • Remote</h4>
+                            <p>Contributed to the development of Glow Drape, a full-stack e-commerce platform for jewellery and dress shopping.</p>
+                            <ul>
+                                <li>Designed and implemented responsive user interfaces using Next.js, TypeScript and Tailwind CSS.</li>
+                                <li>Collaborated with team members to develop responsive UI components and integrate frontend features for the Glow Drape e-commerce platform.</li>
+                            </ul>
+                            <div class="project-tech-stack" style="margin-top: 10px;">
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Exp 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2026</span>
+                            <h3>Data Analytics Job Simulation</h3>
+                            <h4>Deloitte (Forage Virtual Internship) • Remote</h4>
+                            <p>Completed a simulation modeled on Deloitte's forensic technology and data analytics practice.</p>
+                            <ul>
+                                <li>Built a business intelligence dashboard using Tableau to visualize operational data and support decision-making.</li>
+                                <li>Used Excel for data classification, pattern analysis, and deriving actionable business conclusions.</li>
+                            </ul>
+                            <div class="project-tech-stack" style="margin-top: 10px;">
+                                <span>Tableau</span>
+                                <span>Excel</span>
+                                <span>Data Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-subtitle">My academic qualifications</p>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-date">Sep 2023 – Present</span>
+                            <h3>Sri Sairam Engineering College</h3>
+                            <h4>Bachelor of Computer Science and Engineering</h4>
+                            <p class="edu-score">CGPA: 8.92/10 (89.2%)</p>
+                            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Chennai, India</p>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-date">June 2022 – April 2023</span>
+                            <h3>A.V.G. Vidyalaya Matriculation Higher Secondary School</h3>
+                            <h4>Higher Secondary (Class XII)</h4>
+                            <p class="edu-score">Percentage: 85.67%</p>
+                            <p class="edu-location"><i class="fa-solid fa-location-dot"></i> Chennai, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications & Achievements -->
+                <div class="certifications-container">
+                    <h3>Certifications & Achievements</h3>
+                    <div class="cert-grid">
+                        <div class="cert-card"><i class="fa-solid fa-award"></i> Career Edge - Young Professional (TCS ION)</div>
+                        <div class="cert-card"><i class="fa-solid fa-award"></i> SAP Learning Module - PwC Tekstac (In Progress, 2026)</div>
+                        <div class="cert-card"><i class="fa-solid fa-award"></i> Introduction to Modern Cisco Networking Academy</div>
+                        <div class="cert-card"><i class="fa-solid fa-award"></i> Decoding Data Science and Machine Learning (GUVI)</div>
+                        <div class="cert-card"><i class="fa-solid fa-trophy"></i> Top Performer - SkillRack Coding Platform (2025)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's connect or discuss opportunities</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's talk about everything!</h3>
+                        <p>Feel free to reach out for frontend developer roles, software engineering internships, or collaborative projects.</p>
+                        
+                        <div class="contact-detail-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email Me</h4>
+                                <a href="mailto:ashi.07206@gmail.com">ashi.07206@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Call Me</h4>
+                                <a href="tel:+918056158943">+91 8056158943</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Chennai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                            <a href="https://www.skillrack.com" target="_blank" rel="noopener noreferrer" aria-label="SkillRack"><i class="fa-solid fa-laptop-code"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <h3>Send Me a Message</h3>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                            <div id="formFeedback" class="form-feedback"></div>
+                            <p class="form-note">Note: Since this is a static frontend portfolio without a backend server, messages are simulated. Please use direct email at <a href="mailto:ashi.07206@gmail.com">ashi.07206@gmail.com</a> for actual inquiries.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Aswini R. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:ashi.07206@gmail.com">Email</a>
+            </div>
+            <button id="backToTop" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
